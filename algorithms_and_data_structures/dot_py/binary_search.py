@@ -60,7 +60,7 @@ def binary_search(
     left = 0
     right = len(data) - 1
 
-    if len(data) == 0:
+    if right < 0:
         raise ValueError("The list can not be empty!")
         
 
