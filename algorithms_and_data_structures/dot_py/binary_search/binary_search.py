@@ -62,10 +62,6 @@ def binary_search(
 
     if right < 0:
         raise ValueError("The list can not be empty!")
-        
-
-    if len(data) == 1 and data[0] == item:
-        return (data[0], 0,)
 
     while left <= right:
         middle = (left + right) // 2
